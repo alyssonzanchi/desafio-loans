@@ -18,7 +18,7 @@ const loanTypes = {
 }
 
 app.get('/', (req, res) => {
-    res.json(loanTypes.consignment)
+    res.json('API em execução!')
 })
 
 app.post('/loans', (req, res) => {
